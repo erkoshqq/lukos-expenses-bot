@@ -1,0 +1,40 @@
+# --- Секреты и конфигурация (НИКОГДА не коммитить!) ---
+.env
+credentials.json
+*.json.key
+service_account*.json
+
+# --- Логи ---
+*.log
+bot.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Виртуальное окружение ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Кэши и артефакты сборки ---
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE / редакторы ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
